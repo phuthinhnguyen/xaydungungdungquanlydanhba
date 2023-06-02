@@ -1,14 +1,14 @@
 
 import { Route, Routes } from "react-router-dom";
 import Home from "./Component/Home";
-import Addbook from "./Component/Addbook";
-import Editbook from "./Component/Editbook";
+import Addcontact from "./Component/Addcontact";
+import Editcontact from "./Component/Editcontact";
 function App(){
   return (
     <Routes>
       <Route path="/" element={<Home/>} ></Route>
-      <Route path="/addbook" element={<Addbook/>} ></Route>
-      <Route path="/editbook/" element={<Editbook/>} ></Route>
+      <Route path="/addcontact" element={<Addcontact/>} ></Route>
+      <Route path="/editcontact/" element={<Editcontact/>} ></Route>
     </Routes>
   )
 }
